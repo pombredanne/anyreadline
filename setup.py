@@ -42,7 +42,7 @@ setup(
     zip_safe=False,
     classifiers = [
        'Environment :: Console',
-       'License :: OSI Approved :: Public Domain',
+       'License :: Public Domain',
        'Programming Language :: Python',
        'Programming Language :: Python :: 2',
        ],
