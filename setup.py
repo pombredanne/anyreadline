@@ -21,7 +21,7 @@ sysplat = str(sys.platform).lower()
 
 install_requires = ['setuptools'] 
 if 'darwin' in sysplat:
-    install_requires += ['readline'] 
+    install_requires += ['gnureadline']
 if 'win32' in sysplat:
     install_requires += ['pyreadline'] 
 
